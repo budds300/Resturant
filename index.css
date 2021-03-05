@@ -1,10 +1,113 @@
 .container{
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0; 
+    padding-top: 0;
+    
     background-image: url(./backgrounds/landing.jpg);
     background-repeat: no-repeat;
     background-size:contain;
+    margin: auto ;
+    width: 100%;
+}
+#logo{
+    padding: auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: auto;
+    
+}
+#list{
+  width: 280px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  display: block;
+  justify-items: normal;
+  position: relative;
+  
+}
+#list>p{
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+#PT{
+    width: 280px;
+    height: 100px;
+  margin: auto;
+  text-align: center;
+  background-color: #F15A29;
+  display: block;
+  position: absolute;
+  
+
+}
+#PT>p{
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    
+
+}
+#HappyHour{
+    
+    
+    background-color: whitesmoke;
+    width: 30%;
+    height: 10%;
+}
+strong{
+    font-weight: 700px;
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-items: normal;
+}
+#breakfast{
+    background-image: url(./foodtop/breakfast.jpg);
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    
+
+
+}
+#lunch{
+    background-image: url(./foodtop/dinner2.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    
+
+    
+
+}
+#dinner{
+    background-image: url(./foodtop/dinner.jpg);
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:auto;
 }
