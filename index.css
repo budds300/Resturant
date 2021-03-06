@@ -1,16 +1,15 @@
 .container{
-    position: fixed;
+    position:static;
     top: 0;
-    bottom: 0;
     right: 0;
+    bottom: 0;
     left: 0; 
-    padding-top: 0;
-    
     background-image: url(./backgrounds/landing.jpg);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     margin: auto ;
-    width: 100%;
+    
+    
 }
 #logo{
     padding: auto;
@@ -18,6 +17,7 @@
     text-align: center;
     color: white;
     margin: auto;
+    padding-top: 15px;
     
 }
 #list{
@@ -74,21 +74,23 @@ strong{
 .menu{
     display: flex;
     flex-direction: row;
-    justify-items: normal;
-}
-#breakfast{
+    image-resolution: 100%;
+    margin: auto;
+   
+    height: 300px;
+    }
+   
+/* #breakfast{
     background-image: url(./foodtop/breakfast.jpg);
     height: 200px;
     width: 700px;
     margin: auto;
     text-align: center;
     background-repeat: no-repeat;
-    background-size:auto;
-    
+    background-size:auto;}
+     */
 
-
-}
-#lunch{
+/* #lunch{
     background-image: url(./foodtop/dinner2.jpg);
     background-size:auto;
     background-repeat: no-repeat;
@@ -97,17 +99,42 @@ strong{
     width: 700px;
     margin: auto;
     text-align: center;
-    
+}*/
 
-    
-
-}
-#dinner{
+/* #dinner{
     background-image: url(./foodtop/dinner.jpg);
     height: 200px;
     width: 700px;
     margin: auto;
     text-align: center;
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size:auto; }*/
+
+.fastfoods{
+    
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    width: 25%;
+    float: left;
+    margin: auto;
+    box-sizing: content-box;
+    border:3px solid white ;
+    box-shadow: 2px 2px 5px grey; 
 }
+#fastfoodtxt{
+    text-align: left;
+   width: 70%;
+   margin: auto;
+   
+
+}
+#fastfoodphoto{
+    text-align: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+
+    
+}
+
