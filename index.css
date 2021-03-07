@@ -13,6 +13,8 @@ html{
     background-size:cover;
     
 }
+/* landing */
+
 #logo{
     padding: auto;
     justify-content: center;
@@ -119,7 +121,7 @@ strong{
     transform: translate(-50%, -50%); 
 }
     
-
+/* Fast food menu */
 
 .fastfoods{
     
@@ -155,6 +157,9 @@ padding-left: 1em;
     width: 70%;
     margin: auto;  
 }
+
+/* Footer */
+
 #footer{
     background-color: #F15A29;
     text-align: center;
@@ -179,6 +184,7 @@ padding-left: 1em;
     padding: 10rem 0;
    
 }
+/* Subscribe */
 .subscribe {
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
     padding: 2% 3%;
@@ -221,6 +227,7 @@ button{
     text-align: center;
     font-family:'Noto Sans HK', sans-serif;
 }
+/* customer */
 #customer{
 display: flex;
 flex-direction: row;
@@ -256,6 +263,9 @@ width: 80%;
 #about h2{
     color:#F15A29;
     }
+
+    /* Food list menu */
+
   #foodlist-background{
       background-image: url(./backgrounds/foodsBg.jpg);
       background-repeat: no-repeat;
@@ -311,44 +321,8 @@ nav{
 .active{
     color:#F15A29;
 } 
-/* nav {
-    max-width: 100%;
-    padding: 10px 0; 
-    margin: 0 auto;
-    width: 100%;
-    
-   
-}
-nav>ul>li{
-    width: 150px;
-    display: inline-block;
-    justify-content: stretch;
-    position: relative;
-    background-color:  rgba(110, 110, 110, 0.733);
-}
+/* Drinks */
 
-
-
-nav>ul{
-    text-align: center;
-    
-}
- nav>ul>li>a {
-     
-    padding: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline;
-    color:black;
-    background-color:  rgba(110, 110, 110, 0.733);
-    background-size: cover;
-    
-    }
-    .nav-link:hover{
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),inset  0 0 1px rgba(255, 255, 255, 0.6);
-        background: white;
-        color:#F15A29;
-        }   */
         #Drinks{
             display: flex;
             flex-direction: row;
