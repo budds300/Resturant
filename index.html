@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
     <title>Anita Resturans</title>
     
   </head>
@@ -51,34 +52,42 @@
         </div> 
         <!-- Drinks -->
         <div id="Drinks">
-            <div id="drinksphoto">
-                <img src="./drink1.jpg" alt="someone having a drink">
-                <img src="./drink2.jpg" alt="purp drink">
-
-            </div>
+            <div class="about-drinks">
             <h2>Drinks</h2>
             <h3>We also produce delicious drinks</h3>
             <p>Our drinks are quite outstanding to believe</p>
             <div class="view gallery">View Gallery</div>
-
+            </div>
+            <div id="drinksphoto">
+                <img src="./drink1.jpg" alt="someone having a drink">
+                <img src="./drink2.jpg" alt="purp drink">
+            </div>
         </div>
         <!-- Food list menu -->
         <div id="foodlist-background">
             <div id="foodlist-menu">
                 <nav>
-                    <ul>
-                        <li><a href="#fastfood">Fast Food</a></li>
-                        <li><a href="#Drinks">Drinks</a></li>
-                        <li><a href="#chicken">Chicken</a></li>
-                        <li><a href="Rice"> Rice</a></li>
-                    </ul>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link "  href="#Fast Food">Fast Food</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Drinks">Drinks</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Chicken">Chicken</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#Rice" tabindex="-1" >rice</a>
+                        </li>
+                      </ul>
                 </nav>
                 <div id="foodimages">
                     <div class="foodimages"><img src="./fastfood/chickenBurger.jpg" alt="chickenBurger"> <br>
                     <p>Chicken Burger</p>
                     </div>
                     <div class="foodimages"><img src="./fastfood/beefBurger.jpg" alt="beefBurger"> <br>
-                    <p>Beef Bufger</p>
+                    <p>Beef Burger</p>
                     </div>
                     <div class="foodimages"><img src="./fastfood/chickenPizza.jpg" alt="chickenPizza"> <br>
                     <p>Chicken Pizza</p>
@@ -127,6 +136,7 @@
             </div>
         </div>
     </div>
-        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>  
     </body>
     </html> 
