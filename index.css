@@ -1,5 +1,9 @@
+html{
+    scroll-behavior: smooth;
+    position: relative;
+}
 #overlay{
-    position:static;
+    position:relative;
     top: 0;
     right: 0;
     bottom: 0;
@@ -7,8 +11,6 @@
     background-image: url(./backgrounds/landing.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    margin: auto ;
-    
     
 }
 #logo{
@@ -21,32 +23,25 @@
     
 }
 #list{
-  width: 280px;
-  height: 100px;
+    
+    min-width: 300px;
+  border: 33px solid whitesmoke;
   margin: auto;
   text-align: center;
   background-color: whitesmoke;
   display: block;
-  justify-items: normal;
-  position: relative;
+  
+  position:relative;
   
 }
-#list>p{
-    text-align: center;
-    margin: auto;
-    padding-top: 30px;
-    color: black;
-    font-family: sans-serif;
-    font-size: 24px;
-}
 #PT{
-    width: 280px;
-    height: 100px;
+min-width: 300px;
+  border: 33px solid  #F15A29;  
   margin: auto;
   text-align: center;
   background-color: #F15A29;
   display: block;
-  position: absolute;
+  position: relative;
   
 
 }
@@ -60,8 +55,9 @@
     
 
 }
+
+
 #HappyHour{
-    
     
     background-color: whitesmoke;
     width: 30%;
@@ -74,59 +70,85 @@ strong{
 .menu{
     display: flex;
     flex-direction: row;
-    image-resolution: 100%;
-    margin: auto;
-   
-    height: 300px;
+    position: relative;
     }
+    
    
-/* #breakfast{
-    background-image: url(./foodtop/breakfast.jpg);
-    height: 200px;
-    width: 700px;
-    margin: auto;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size:auto;}
-     */
+ #breakfast{
+     color: white;
+     font-size: 30px;
+     text-align: center;
+     font-weight: 700;
+     width: 100%;
+     
+ }
+ .breakfast{
+     opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
 
-/* #lunch{
-    background-image: url(./foodtop/dinner2.jpg);
-    background-size:auto;
-    background-repeat: no-repeat;
-    padding: 0;
-    height: 200px;
-    width: 700px;
-    margin: auto;
-    text-align: center;
-}*/
+ }
 
-/* #dinner{
-    background-image: url(./foodtop/dinner.jpg);
-    height: 200px;
-    width: 700px;
-    margin: auto;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size:auto; }*/
+#lunch{
+    color: white;
+     font-size: 30px;
+     text-align: center;
+     font-weight: 700;
+}
+.lunch{
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%); 
+}
+    
+ #dinner{
+    color: white;
+    font-size: 30px;
+    text-align: center; 
+    font-weight: 700;  
+ }
+ .dinner{
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%); 
+}
+    
+
 
 .fastfoods{
     
     display: flex;
     flex-direction: column;
-    position: inherit;
-    width: 50%;
-    float: left;
+    position:relative;
+    width: 80%;
     margin: auto;
     box-sizing: content-box;
-    border:3px solid white ;
+    border: 20px solid white ;
     box-shadow: 2px 2px 5px grey; 
+    
 }
 #fastfoodtxt{
     text-align: left;
-   width: 70%;
-   margin: auto;
+    padding-left: 5em;
+  
+   
 }
+#fastfoodphoto{
+display: flex;
+flex-direction: row;
+margin: auto;
+padding-top: 2em;
+padding-bottom: 2em;
+padding-left: 1em;
+}
+   
+
 #fastfoodphoto{
     text-align: center;
     justify-content: space-around;
@@ -209,6 +231,7 @@ box-shadow: 2px 2px 5px grey;
 margin: 2em auto;
 width: 80%;
 }
+
 #happycustomer h2{
     color:#F15A29;
     font-size: 20px;
@@ -265,7 +288,30 @@ width: 80%;
     color:#F15A29 ;
     font-size: 20px;
 }
-nav {
+nav{
+    margin-bottom: 1em;
+    
+}
+.nav-item{
+    background-color:  rgba(110, 110, 110, 0.733);
+    text-align: center;
+}
+.nav-link{
+    color: #000;
+    padding-left: 5.9em;
+    padding-right: 5.9em;
+    text-transform: uppercase;
+    
+}
+.nav-link:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),inset  0 0 1px rgba(255, 255, 255, 0.6);
+    background: white;
+    color:#F15A29;
+}
+.active{
+    color:#F15A29;
+} 
+/* nav {
     max-width: 100%;
     padding: 10px 0; 
     margin: 0 auto;
@@ -278,7 +324,11 @@ nav>ul>li{
     display: inline-block;
     justify-content: stretch;
     position: relative;
+    background-color:  rgba(110, 110, 110, 0.733);
 }
+
+
+
 nav>ul{
     text-align: center;
     
@@ -291,26 +341,41 @@ nav>ul{
     display: inline;
     color:black;
     background-color:  rgba(110, 110, 110, 0.733);
-
+    background-size: cover;
     
     }
-    .nav-link {
+    .nav-link:hover{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),inset  0 0 1px rgba(255, 255, 255, 0.6);
         background: white;
         color:#F15A29;
-        }  
-        #drinks{
+        }   */
+        #Drinks{
             display: flex;
             flex-direction: row;
-            height: 70%;
-            margin: auto;
-            display: inline;
+            justify-content: space-around;
+            padding-bottom: 2em;
+                     
         }
         .about-drinks{
-            clear: left;
+            text-align: right;
             float: left;
         }
         #drinksphoto{
             display: flex;
             flex-direction: row;
-        }
+            max-width: 50%;
+            margin: auto;
+            border: 7px solid whitesmoke ;
+            box-shadow: 1px 1px 5px grey;
+            }
+            .viewG{
+                background-color:white;
+                width: 70%;
+                color:#F15A29;
+                text-align: center;
+                margin: auto;
+                position: relative;
+                border: 20px solid white;
+                box-shadow: 1px 1px 5px #F15A29;
+            }
+        
