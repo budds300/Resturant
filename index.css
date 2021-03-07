@@ -200,7 +200,60 @@ button{
     font-family:'Noto Sans HK', sans-serif;
 }
 #customer{
-    display: flex;
+display: flex;
 flex-direction: row;
 justify-content: space-around;
+box-sizing: content-box;
+border:1px solid grey;
+box-shadow: 2px 2px 5px grey;
+margin: 2em auto;
+width: 80%;
+}
+#happycustomer h2{
+    color:#F15A29;
+    font-size: 20px;
+    text-align: center;
+}
+#happycustomer h3{
+    text-align: center;
+}
+#happycustomer{
+    border-right: 1px solid black;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+#about{
+    width: 80%;
+    margin: 0.5em auto;
+    text-align: center;
+    padding-bottom: 1em;
+    
+}
+#about h2{
+    color:#F15A29;
+    }
+  #foodlist-background{
+      background-image: url(./backgrounds/foodsBg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      padding: 10rem 0;
+  }  
+  #foodlist-menu{
+      background-color:white;
+      width:90%;
+      margin:auto;
+    
+  }
+#foodimages{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+.footerimg{
+    text-align: center;
+    margin: auto;
 }
