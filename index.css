@@ -239,6 +239,22 @@ box-shadow: 2px 2px 5px grey;
 margin: 2em auto;
 width: 80%;
 }
+.align{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.sign{
+    padding-top: 15px;
+    font-size: 30px;
+    color:#F15A29 ;
+    font-weight: 800;
+}
+.line{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
 
 #happycustomer h2{
     color:#F15A29;
@@ -259,6 +275,7 @@ width: 80%;
     margin: 0.5em auto;
     text-align: center;
     padding-bottom: 1em;
+    padding-top: 3em;
     
 }
 #about h2{
@@ -587,6 +604,18 @@ nav{
     box-shadow: 2px 2px 5px grey;
     margin: 2em auto;
     width: 80%;
+    }
+    .align{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+    .sign{
+        padding-top: 15px;
+        font-size: 30px;
+        color:#F15A29 ;
+        font-weight: 800;
     }
     
     #happycustomer h2{
